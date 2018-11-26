@@ -15,6 +15,9 @@
   z-index: 2;
   
 }
+li {
+  padding: 10px;
+}
 #work-link {
   padding-left: 10px;
 }
