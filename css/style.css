@@ -206,11 +206,7 @@ a:hover {
 }
 @media only screen and (max-width: 716px) {
   #nav {
-  width: 0px;
-  height: 0px;
-  list-style-type: none;
-    position: relative;
-    font-size: 0px;
+display: none;
 }
   .grid-container {
     background-color: ;
