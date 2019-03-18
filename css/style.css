@@ -131,7 +131,7 @@ a:hover {
   margin: auto;
 }
 .jlog-img {
-  padding-top: 5em;
+  margin-top: 5em;
 }
 #work-2-section {
   /* height: 100vh; */
@@ -347,6 +347,9 @@ a:hover {
   }
   .work-title-full {
     font-size: 1.5em;
+  }
+  #work-2-section {
+    padding-top: 7em;
   }
   .grid-container-work {
     display: grid;
