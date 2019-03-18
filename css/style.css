@@ -227,6 +227,9 @@ a:hover {
 .contact-text {
   font-size: 2em;
 }
+.contact-text a {
+  color: #000;
+}
 #contact-section {
   padding: 1em;
   margin: auto;
@@ -345,8 +348,6 @@ a:hover {
     font-family: "Roboto Slab";
     grid-area: text;
     font-size: 0.75em;
-
-    /* //background-color: #aaa; */
   }
   .work-title-full {
     font-size: 1.5em;
@@ -376,6 +377,9 @@ a:hover {
   .contact-text {
     font-size: 1em;
   }
+  .contact-text a {
+    color: #000;
+  }
   #contact-section {
     padding: 10px;
     margin: auto;
@@ -384,9 +388,3 @@ a:hover {
     font-family: "Roboto";
   }
 } /*end*/
-
-/*https://images.unsplash.com/photo-1502741282025-a9c6a20aa697?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=59fa105a85e0788de949e7a7449978e8&auto=format&fit=crop&w=700&q=80
-
-https://images.unsplash.com/photo-1464600923926-4ff72f9505f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=865f5af0ad4d68038d54b1043886b087&auto=format&fit=crop&w=1050&q=80
-
-https://images.unsplash.com/photo-1493267688905-a18e8e437e91?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=448e0f15ae0775868b6df43696843ac1&auto=format&fit=crop&w=1001&q=80*/
