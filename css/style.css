@@ -105,7 +105,8 @@ a:hover {
 #about-heading {
   font-family: "Roboto";
   color: red;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 3.1em;
   grid-area: heading;
   margin-bottom: 15px;
   /* //background-color: #888; */
@@ -165,7 +166,8 @@ a:hover {
   /* font-family: "Roboto Slab"; */
   font-family: "Roboto";
   color: red;
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 3.1em;
   text-align: left;
 }
 .work-title-widget {
@@ -173,6 +175,7 @@ a:hover {
   font-family: "Roboto";
   color: red;
   font-size: 50px;
+  font-size: 3.1em;
   margin: auto;
   /* text-align: center;
   padding-top: 5px;
@@ -263,11 +266,14 @@ a:hover {
     font-size: 1.49em;
   }
 }
-@media (max-width: 716px) {
+@media (max-width: 812px) {
   /* @media only screen and (max-width: 716px) { */
   body {
     /* testing purposes */
     /* background-color: red; */
+  }
+  #work-2-section {
+    display: none;
   }
   #nav {
     display: none;
@@ -299,15 +305,28 @@ a:hover {
     /* //align-self: center; */
     margin: auto;
   }
+  #grid-container {
+    height: 100vh;
+  }
   #welcome {
-    font-size: 60px;
+    font-size: 2.5em;
   }
   #experience {
-    font-size: 40px;
+    font-size: 1.5em;
   }
   #about-section {
-    display: inline-block;
+    /* display: inline-block; */
     /* //padding-bottom: 90px; */
+    margin-bottom: 0;
+  }
+  #work-section {
+    padding-top: 1em;
+  }
+  .grid-container-work-1 {
+    width: 80%;
+  }
+  .view-proj-code {
+    font-size: 1em;
   }
   .grid-container-about {
     display: grid;
@@ -322,14 +341,18 @@ a:hover {
   #about-heading {
     font-family: "Roboto";
     color: red;
-    font-size: 50px;
+    font-size: 1.5em;
     grid-area: heading;
   }
   #about-text {
     font-family: "Roboto Slab";
     grid-area: text;
+    font-size: 0.75em;
 
     /* //background-color: #aaa; */
+  }
+  .work-title-full {
+    font-size: 1.5em;
   }
   .grid-container-work {
     display: grid;
@@ -351,7 +374,9 @@ a:hover {
     background-color: ; */
   }
 } /*end*/
-
+.contact-text {
+  font-size: 1em;
+}
 #contact-section {
   padding: 10px;
   margin: auto;
