@@ -241,6 +241,17 @@ a:hover {
   background-color: #333;
   background-blend-mode: multiply;
 }
+.contact-text {
+  font-size: 2em;
+}
+#contact-section {
+  padding: 1em;
+  margin: auto;
+  padding-bottom: 2em;
+  width: 60%;
+  text-align: center;
+  font-family: "Roboto";
+}
 
 @media (max-width: 1200px) {
   #welcome {
@@ -373,17 +384,17 @@ a:hover {
     /* padding-left: ;
     background-color: ; */
   }
+  .contact-text {
+    font-size: 1em;
+  }
+  #contact-section {
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-family: "Roboto";
+  }
 } /*end*/
-.contact-text {
-  font-size: 1em;
-}
-#contact-section {
-  padding: 10px;
-  margin: auto;
-  width: 60%;
-  text-align: center;
-  font-family: "Roboto";
-}
 
 /*https://images.unsplash.com/photo-1502741282025-a9c6a20aa697?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=59fa105a85e0788de949e7a7449978e8&auto=format&fit=crop&w=700&q=80
 
