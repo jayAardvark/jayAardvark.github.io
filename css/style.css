@@ -131,14 +131,14 @@ a:hover {
   margin: auto;
 }
 .jlog-img {
-  margin-top: 5em;
+  padding-top: 7em;
 }
 #work-2-section {
   /* height: 100vh; */
   display: inline-block;
   /* margin-top: 15em; */
   width: 100%;
-  padding-top: 11em;
+  padding-top: 12em;
   margin: auto;
 }
 .simpler-widgets-container {
@@ -321,6 +321,9 @@ a:hover {
   }
   .view-proj-code {
     font-size: 1em;
+  }
+  .jlog-img {
+    padding-top: 1em;
   }
   .grid-container-about {
     display: grid;
