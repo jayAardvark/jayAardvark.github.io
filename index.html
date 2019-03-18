@@ -4,9 +4,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>PORTFOLIO add grid</title>
+  <title>Portfolio</title>
   
-  
+      <!---bring in bootstrap via CDN----------------------->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!---bring in fontawesome via CDN----------------------->
   
       <link rel="stylesheet" href="css/style.css">
 
@@ -47,39 +54,109 @@
   </div>
   <div class='four'></div>
   <div class="welcome-section-text-two">
-    <h3 id="experience">UI / APPLICATIONS 
+    <!-- <h3 id="experience">UI / APPLICATIONS  -->
+      <h3 id="experience">FRONT-END / BACK-END</h3>
   </div>
     <div class='six'></div>
 </div>
   
   <section id='about-section'>
     <div class="grid-container-about">
-      <h1 id='about-heading'>About <span style='color: dodgerblue'>Me</h1>
-      <p id='about-text'><span style="font-weight:bold">Problem Solver:</span><br>I am a recent graduate of UC San Diego (2018). The experience trained me to be a problem-solver. This problem-solving training was presented to me in many different forms—from calculus to grammatically parsing ancient Latin texts to be translated into English to puzzle-like programming challenges in MatLab.<br><br><span style="font-weight:bold">Music and Electronics:</span><br>Music is very important to me. Not only do I enjoy writing and recording music, but music has also led me into an electronics hobby—I enjoy, for example, modifying the electronics in my guitars and building effects pedals and working on vintage vacuum tube amplifiers.<br><br><span style="font-weight:bold">Technologies:</span><br>HTML, CSS, CSS Flex-box, CSS Grid, Bootstrap, jQuery, Sass, React, and Javascript (ES6).  Familiarity: Node, Express, MongoDb, and Mongoose (some coursework experience with C++ and MatLab).<br><br><span style="font-weight: bold">Currently Working On:</span><br>1. Single-Page React App for musical instrument maintenance. It makes use of a weather API and my OCD-induced relationship to guitars. <a style="color: red" href='https://festive-cori-48acfb.netlify.com/' target='_blank'>Click here for a sample version of this project!</a><br><br>2. A full-stack app (React, Node, Express, MongoDB) that allows the user to log exercises. I might incorporate features for nutrition tracking as well. <a style="color: red" href='https://github.com/jayAardvark/exercise-log' target='_blank'>Click here for the repository of this project!</a> <br><br>3. To bridge the gap between my love of music and coding, I'm working on a full-stack social media app centered around musicians. It will include such functionalities as user authentication, user profile customization, and the ability for users to chat with one another. I'm using React for the frontend and MongoDB, Express, and Node.Js for the backend of this project (in addition to JSON Web Tokens and Passport for user privacy/security). <a style="color: red" href='https://github.com/jayAardvark/matched-musician' target='_blank'>Click here for the repository of this project!</a> 
-      </p>
+      <h1 id='about-heading'>
+        about <span style='color: dodgerblue'>me
+      
+      </h1>
+      <p id='about-text'>
+        <span style="font-weight:bold">Problem Solver:</span>
+        <br>
+          I am a recent graduate of UC San Diego (2018). The experience trained me to be a problem-solver. This problem-solving training was presented to me in many different forms—from calculus to grammatically parsing ancient Latin texts to be translated into English to puzzle-like programming challenges in MatLab.
+        <br><br>
+        <span style="font-weight:bold">Music and Electronics:</span>
+        <br>
+        Music is very important to me. Not only do I enjoy writing and recording music, but music has also led me into an electronics hobby—I enjoy, for example, modifying the electronics in my guitars and building effects pedals and working on vintage vacuum tube amplifiers.
+        <br><br>
+        <span style="font-weight:bold">Technologies:</span>
+        <br>HTML, CSS, CSS Flex-box, CSS Grid, Bootstrap, jQuery, Sass, React, and Javascript (ES6).  Familiarity: Node, Express, MongoDb, and Mongoose (some coursework experience with C++ and MatLab).
+        <!-- <br><br>
+        <span style="font-weight: bold">Currently Working On:</span>
+        <br>1. Single-Page React App for musical instrument maintenance. It makes use of a weather API and my OCD-induced relationship to guitars. <a style="color: red" href='https://festive-cori-48acfb.netlify.com/' target='_blank'>Click here for a sample version of this project!</a>
+        <br><br>
+        2. A full-stack app (React, Node, Express, MongoDB) that allows the user to log exercises. I might incorporate features for nutrition tracking as well. <a style="color: red" href='https://github.com/jayAardvark/exercise-log' target='_blank'>Click here for the repository of this project!</a> 
+        <br><br>
+        3. To bridge the gap between my love of music and coding, I'm working on a full-stack social media app centered around musicians. It will include such functionalities as user authentication, user profile customization, and the ability for users to chat with one another. I'm using React for the frontend and MongoDB, Express, and Node.Js for the backend of this project (in addition to JSON Web Tokens and Passport for user privacy/security). <a style="color: red" href='https://github.com/jayAardvark/matched-musician' target='_blank'>Click here for the repository of this project!</a> 
+      </p> -->
         
     </div>
   </section>
     
-    <section id="work-section">
-      
-      <div class='grid-container-work'>
-        <a href="https://jayaardvark.github.io/react-drum-machine/" target="_blank" id="link-one" class='work-tile'> react app one</a>
-        <a href="https://jayaardvark.github.io/react-calculator/" target="_blank" id="link-two" class='work-tile'>react app two</a>
-        <a href="https://jayaardvark.github.io/jquery-oblique-strategies-clone/" target="_blank" id="link-three" class='work-tile'>jquery app five</a>
-        <div id="four"></div>
-        <a href="https://jayaardvark.github.io/react-markdown-translator/" target='_blank' id="link-five" class='work-tile'>react app four</a>
-        <a href="https://jayaardvark.github.io/pomodoro/" target="_blank" id="link-six" class='work-tile'>react app three</a>
-        <!--<a href="" id="link-one" class='work-tile'>project one</a>-->
+  <section id="work-section">
+    <div class="grid-container-work-1">
+      <h1 class="work-title-full">full-stack <span style='color: dodgerblue'>web-apps</span></h1>
+      <!-- <div class="go-div"> -->
+        <a class="go-a-link" href="https://serene-fortress-66846.herokuapp.com/" target="_blank">
+          <img class="go-img" src="./img/GO screen shot 1.png" width="100%" alt="guitar optimizer">
+        </a>
+        <h3 class="mt-3">
+          <a style="color: red" href='https://serene-fortress-66846.herokuapp.com/' target='_blank'> 
+            view project 
+          </a>
+          <a style="color: dodgerblue" href='https://github.com/jayAardvark/guitar-optimizer' target='_blank'> 
+            view code 
+          </a>
+        </h3>
+        <a class="go-a-link" href="https://floating-brushlands-76735.herokuapp.com/" target="_blank">
+          <img class="go-img mt-5" src="./img/jl screen shot 1.png" width="100%" alt="guitar optimizer">
+        </a>
+        <h3 class="mt-3">
+            <a style="color: red" href='https://floating-brushlands-76735.herokuapp.com/' target='_blank'> 
+              view project 
+            </a>
+            <a style="color: dodgerblue" href='https://github.com/jayAardvark/exercise-log' target='_blank'> 
+              view code 
+            </a>
+          </h3> 
+      <!-- </div> -->
+    </div>
+  </section>
+  
+  <section id="work-2-section">
+      <div class="simpler-widgets-container">
+        <h1 class="work-title-widget">simpler <span style='color: dodgerblue'>widgets</span></h1>
+        <p class="under-work-title">(hover over tiles for descriptions)</p>
+        <div class='grid-container-work'>
+          <a href="https://jayaardvark.github.io/react-drum-machine/" target="_blank" id="link-one" class='work-tile'> react app one</a>
+          <a href="https://jayaardvark.github.io/react-calculator/" target="_blank" id="link-two" class='work-tile'>react app two</a>
+          <a href="https://jayaardvark.github.io/jquery-oblique-strategies-clone/" target="_blank" id="link-three" class='work-tile'>jquery app five</a>
+          <div id="four"></div>
+          <a href="https://jayaardvark.github.io/react-markdown-translator/" target='_blank' id="link-five" class='work-tile'>react app four</a>
+          <a href="https://jayaardvark.github.io/pomodoro/" target="_blank" id="link-six" class='work-tile'>react app three</a>
+          <!--<a href="" id="link-one" class='work-tile'>project one</a>-->
+        </div>
       </div>
     </section>
+    
     
     <section id="contact-section">
       <h2>JCENINA@UCSD.EDU / (760) 429-3385 / SAN DIEGO, CA</h2>
     </section>
   
   
-
+    <!--bootstrap scripts via cdn-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>
